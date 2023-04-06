@@ -24,9 +24,9 @@ $mail->Port = "587";
 //set gmail username
 $mail->Username = "peterwakoko@gmail.com";
 //set gmail password
-$mail->Password = "lnyiieuxzvxcplgd";
+$mail->Password = ""; 
 //set email subject
-$mail->Subject = "Welcome message.";
+$mail->Subject = "PHPMailer Assignment.";
 //set sender email
 $mail->setFrom("peterwakoko@gmail.com");
 //enable HTML
@@ -37,10 +37,11 @@ $mail->addAttachment('./img/peter.jpg');
 $mail->Body = "
 <div style='background-color:#8C8C8C; height:200px;   border-radius:10px;'>
 <div>
-<h1 style='text-align:center; color:#fff; padding:10px;'>Your are welcome Peter!</h1> 
+<h1 style='text-align:center; color:#fff; padding:10px;'>Good afternoon Sir!</h1> 
 </div>
 <div>
-<p style='text-align:center; color:#fff; padding:10px;'>Thanks for showing interest in our program.</p>
+<p style='text-align:center; color:#fff; padding:10px;'>I think I have somehow cracked the assignment.</p>
+<p style='text-align:center; color:#fff; padding:10px;'>Thanks.<p>
 </div>
 </div>";
 //Add recipient
